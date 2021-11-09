@@ -8,7 +8,7 @@ import matplotlib.image as mpimg
 url = 'http://bit.ly/2JnsHnT'
 r = requests.get(url, stream=True).raw
 
-# 2.8.2 필로우로 이미지 보여주기
+# 2.8.2 필로우로 이미지 보여주기 haha
 img = Image.open(r)
 print("img : ", img.get_format_mimetype)
 img.show()
