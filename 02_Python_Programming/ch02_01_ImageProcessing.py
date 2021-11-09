@@ -4,7 +4,7 @@ import hashlib
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-# 2.8.1 리퀘스트로 인터넷에서 이미지 파일 가져오기 ....
+# 2.8.1 리퀘스트로 인터넷에서 이미지 파일 가져오기 
 url = 'http://bit.ly/2JnsHnT'
 r = requests.get(url, stream=True).raw
 
